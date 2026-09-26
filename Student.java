@@ -15,6 +15,9 @@ public class Student {
     public String getName() { return name; }
     public String getProgramme() { return programme; }
     public double getMarks() { return marks; }
+    public void setName(String name) { this.name = name; }
+    public void setProgramme(String programme) { this.programme = programme; }
+    public void setMarks(double marks) { this.marks = marks; }
 
     @Override
     public String toString() {
